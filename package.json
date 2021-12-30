@@ -1,0 +1,27 @@
+{
+  "name": "cupocinc",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^1.1.1",
+    "@chakra-ui/react": "^1.7.3",
+    "@emotion/react": "11",
+    "@emotion/styled": "11",
+    "critters": "^0.0.15",
+    "framer-motion": "5",
+    "next": "12.0.7",
+    "next-pwa": "^5.4.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.5.0",
+    "eslint-config-next": "12.0.7"
+  }
+}

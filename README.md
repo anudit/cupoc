@@ -1,2 +1,1 @@
-# cupoc
-Home of Cupoc, Inc. 
+# Home of Cupoc, Inc.
