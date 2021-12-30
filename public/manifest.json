@@ -1,6 +1,6 @@
 {
     "name": "CUPOC, Inc.",
-    "short_name": "CUPOC",
+    "short_name": "CUPOC, Inc.",
     "description": "Driven by Curiosity, Possibility & Creativity to re-invent the internet, one Block at a time.",
     "iconPath": "icons/icon.svg",
     "providedBy": {"name": "Anudit Nagar", "url": "https://anudit.dev"},
@@ -11,11 +11,6 @@
         "sizes": "192x192"
       },
       {
-        "src": "./icons/icon-256x256.png",
-        "type": "image/png",
-        "sizes": "256x256"
-      },
-      {
         "src": "./icons/icon-384x384.png",
         "type": "image/png",
         "sizes": "384x384"
@@ -23,17 +18,13 @@
       {
         "src": "./icons/icon-512x512.png",
         "type": "image/png",
-        "sizes": "512x512"
-      },
-      {
-        "src": "./icons/icon-512x512-mask.png",
-        "type": "image/png",
         "sizes": "512x512",
         "purpose": "maskable"
       }
     ],
     "theme_color": "#FFFFFF",
     "background_color": "#FFFFFF",
+    "id": ".",
     "start_url": ".",
     "display": "standalone",
     "orientation": "any"
