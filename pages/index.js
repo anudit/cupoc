@@ -50,10 +50,11 @@ export default function Home() {
       <Flex flexDirection="column" width="100%" height="100vh" alignItems="center" padding={{base:"20px",md:"100px"}}>
         <Flex width={{base:"90%", md:"800px"}}  flexDirection="row" justifyContent="space-between" >
           <Flex flexDirection="column" justifyContent="center">
-            <Heading size="md" fontWeight={800}>CUPOC, Inc.</Heading>
+            <Heading size="md" fontWeight={800} color="black">CUPOC, Inc.</Heading>
           </Flex>
           <Flex flexDirection="column" justifyContent="center">
-            <Button colorScheme="messenger"  borderRadius="100px" px="20px" py="10px" as="a" target="_blank" href="mailto:anudit@theconvo.space">
+            <Button colorScheme="messenger"  borderRadius="100px" px="20px" py="10px"
+            as="a" target="_blank" href="https://anudit.notion.site/Careers-CUPOC-Inc-3c238e5e90c94d8b8161c132e955438d">
               Join Us
             </Button>
           </Flex>
@@ -79,7 +80,7 @@ export default function Home() {
                   }
                 />
                 <Tile
-                  link="https://omnid.space/"
+                  link="http://omnid.space/"
                   logo={<svg xmlns="http://www.w3.org/2000/svg" width="64px" height="64px" viewBox="0 0 512 512" xmlSpace="preserve" fill="#DBDBDB">
                     <path d="M262.2 498.2C92.8 486 91.4 43.9 253.1 13.8c169.6 9.7 169.1 460.3 9.1 484.4zM338.9 256c4.3-52.2-28.1-295.4-114.3-206.1-64.5 109.3-62.9 302.5 0 412.2 87.2 89.6 118.1-154.2 114.3-206.1z"/>
                     <path d="M501.3 314.7v6h-1.5v9c-50.5 112.8-453 116.7-484.4-9 12.2-132.7 460.5-132.8 484.4-6h1.5zM257.6 253c-68.3 1.1-140.6 8.5-203.1 37.6-28.2 22.8-31 31.4 0 54.2 53.6 46.9 451.9 59.3 427.2-37.6-47.5-49.8-157.3-51.9-224.1-54.2z"/>
