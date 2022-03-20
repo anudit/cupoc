@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button, chakra, Flex, Heading, Image, Text, Wrap, WrapItem } from '@chakra-ui/react'
 import Head from 'next/head'
+import Link from 'next/link'
 
 function Tile({background, logo, title, description, link}){
 
@@ -53,10 +54,11 @@ export default function Home() {
             <Heading size="md" fontWeight={800} color="black">CUPOC, Inc.</Heading>
           </Flex>
           <Flex flexDirection="column" justifyContent="center">
-            <Button colorScheme="messenger"  borderRadius="100px" px="20px" py="10px"
-            as="a" target="_blank" href="https://anudit.notion.site/Careers-CUPOC-Inc-3c238e5e90c94d8b8161c132e955438d">
-              Join Us
-            </Button>
+            <Link href="/careers" passHref={true}>
+              <Button colorScheme="messenger"  borderRadius="100px" px="20px" py="10px">
+                Join Us
+              </Button>
+            </Link>
           </Flex>
         </Flex>
         <Flex width={{base:"90%", md:"800px"}} mt={32} flexDirection="row" justifyContent="center" >
