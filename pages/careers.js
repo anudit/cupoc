@@ -3,12 +3,13 @@ import Head from 'next/head'
 import { NotionAPI } from 'notion-client'
 import { Collection, CollectionRow, Modal, NotionRenderer } from 'react-notion-x'
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
 
-    const notion = new NotionAPI()
-    const recordMap = await notion.getPage('3c238e5e90c94d8b8161c132e955438d');
+  const notion = new NotionAPI()
+  const recordMap = await notion.getPage('3c238e5e90c94d8b8161c132e955438d');
 
-    return { props: { recordMap } }
+  return { props: { recordMap }, revalidate: 1 }
+
 }
 
 export default function Home({recordMap}) {
