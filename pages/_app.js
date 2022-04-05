@@ -1,7 +1,6 @@
 import { ChakraProvider } from '@chakra-ui/react'
 import theme from '../src/theme'
 import 'react-notion-x/src/styles.css'
-import 'rc-dropdown/assets/index.css'
 
 function MyApp({ Component, pageProps }) {
   return (

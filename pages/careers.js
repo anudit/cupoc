@@ -30,7 +30,6 @@ export default function Home({recordMap}) {
         }}
         rootPageId={'3c238e5e90c94d8b8161c132e955438d'}
         recordMap={recordMap} fullPage={true} darkMode={true} />
-
     </>
   )
 }
