@@ -1,7 +1,21 @@
 import React from 'react'
 import Head from 'next/head'
 import { NotionAPI } from 'notion-client'
-import { Collection, CollectionRow, Modal, NotionRenderer } from 'react-notion-x'
+import { NotionRenderer } from 'react-notion-x'
+import dynamic from 'next/dynamic'
+
+const Collection = dynamic(() =>
+  import('react-notion-x/build/third-party/collection').then(
+    (m) => m.Collection
+  )
+)
+
+const Modal = dynamic(
+  () => import('react-notion-x/build/third-party/modal').then((m) => m.Modal),
+  {
+    ssr: false
+  }
+)
 
 export async function getServerSideProps(context) {
 
@@ -43,10 +57,9 @@ export default function Home({recordMap}) {
         </Head>
 
           <NotionRenderer components={ {
-              collection: Collection,
-              collectionRow: CollectionRow,
-              modal: Modal,
-          }} recordMap={recordMap} fullPage={true} darkMode={true} />
+            Collection,
+            Modal,
+        }} recordMap={recordMap} fullPage={true} darkMode={true} />
 
       </>
     )

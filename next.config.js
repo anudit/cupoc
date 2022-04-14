@@ -7,6 +7,7 @@ module.exports = (phase) => {
 
   let baseConfig = {
     reactStrictMode: true,
+    swcMinify: true,
     experimental: {
       esmExternals: false
     },
