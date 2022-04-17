@@ -49,11 +49,17 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" />
       </Head>
       <Flex flexDirection="column" width="100%" height="100vh" alignItems="center" padding={{base:"20px",md:"100px"}}>
-        <Flex width={{base:"90%", md:"800px"}}  flexDirection="row" justifyContent="space-between" >
-          <Flex flexDirection="column" justifyContent="center">
+        <Flex width={{base:"90%", md:"800px"}}  flexDirection={{base: "column", md:"row"}} justifyContent={{base: "center", md:"space-between"}} alignItems={{base: "center", md:"center"}} >
+          <Flex flexDirection="column" justifyContent="center" mb={{base:2, md: 0}}>
             <Heading size="md" fontWeight={800} color="black">CUPOC, Inc.</Heading>
           </Flex>
-          <Flex flexDirection="column" justifyContent="center">
+          <Flex flexDirection="row" justifyContent="center" alignItems="center">
+            <Link as="a" passHref={true} target="_blank" href="https://blog.cupoc.space/">
+              <Text mx={2}>Blog</Text>
+            </Link>
+            <Link as="a" passHref={true} target="_blank" href="https://github.com/anudit/cupocbrand/">
+              <Text mx={2} mr={4}>Brand</Text>
+            </Link>
             <Link href="/careers" passHref={true}>
               <Button colorScheme="messenger"  borderRadius="100px" px="20px" py="10px">
                 Join Us
@@ -61,7 +67,7 @@ export default function Home() {
             </Link>
           </Flex>
         </Flex>
-        <Flex width={{base:"90%", md:"800px"}} mt={32} flexDirection="row" justifyContent="center" >
+        <Flex width={{base:"90%", md:"800px"}} mt={32} flexDirection="row" justifyContent="center" mb={{base: 4, md: 0}}>
           <Heading letterSpacing="-1px" as="h2" size='lg' fontWeight="500" color="blackAlpha.800">
             Driven by <chakra.b color="blackAlpha.900" >Cu</chakra.b>riosity, <chakra.b color="blackAlpha.900" >Po</chakra.b>ssibility & <chakra.b color="blackAlpha.900" >C</chakra.b>reativity to re-invent the internet, one block at a time.
           </Heading>
