@@ -1,5 +1,5 @@
 import { ChakraProvider } from '@chakra-ui/react'
-import theme from '../src/theme'
+import theme from '../theme'
 import 'react-notion-x/src/styles.css'
 import { Global, css } from '@emotion/react';
 const GlobalStyle = ({ children }) => {

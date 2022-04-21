@@ -1,9 +1,8 @@
 import React from 'react'
 import { Button, chakra, Flex, Heading, Image, Text, Wrap, WrapItem } from '@chakra-ui/react'
 import Head from 'next/head'
-import Link from 'next/link'
-import Navbar from './components/Navbar'
-import { OmnidIcon, VartaIcon } from './components/icons'
+import Navbar from '../components/Navbar'
+import { OmnidIcon, VartaIcon } from '../components/icons'
 
 function Column({background, logo, title, shortDescription, longDescription, link}){
 
