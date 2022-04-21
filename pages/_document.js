@@ -33,7 +33,7 @@ export default class Document extends NextDocument {
           <script type='application/ld+json' dangerouslySetInnerHTML={ { __html: `{"@context": "http://www.schema.org","@type": "Corporation","name": "Cupoc, Inc.","url": "https://cupoc.space","logo": "https://cupoc.space/images/logo.png","image": "https://cupoc.space/images/poster.webp","description": "The Decentralized Conversation Layer of Internet."}`}} />
           <script type='application/ld+json' dangerouslySetInnerHTML={ { __html: `{"@context": "https://schema.org","@type": "Organization","url": "https://cupoc.space","logo": "https://cupoc.space/images/logo.png"}`}} />
           <script type='application/ld+json' dangerouslySetInnerHTML={ { __html: `{"@context": "https://schema.org","@type": "WebSite","url": "https://cupoc.space","potentialAction": {"@type": "SearchAction","target": "https://cupoc.space/explore?search={searchTerms}","query-input": "required name=searchTerms"}}`}} />
-          <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;400;700&display=swap" rel="stylesheet" />
         </Head>
         <body>
           <ColorModeScript initialColorMode={theme.config.initialColorMode} />

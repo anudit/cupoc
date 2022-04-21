@@ -17,11 +17,11 @@
     "framer-motion": "6.3.0",
     "next": "12.1.5",
     "next-pwa": "^5.5.2",
-    "notion-client": "^6.11.0",
+    "notion-client": "^6.12.0",
     "preact": "^10.7.1",
     "react": "18.0.0",
     "react-dom": "18.0.0",
-    "react-notion-x": "^6.11.0"
+    "react-notion-x": "^6.12.3"
   },
   "devDependencies": {
     "eslint": "^8.13.0",

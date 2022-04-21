@@ -9,8 +9,8 @@ const theme = extendTheme({
       }),
     },
     fonts: {
-      heading: "'Comfortaa', sans-serif",
-      body: "'Comfortaa', sans-serif",
+      heading: "'Work Sans', sans-serif",
+      body: "'Work Sans', sans-serif",
     },
     config: {
       cssVarPrefix: "c",
