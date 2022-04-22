@@ -38,7 +38,7 @@ export default function Home({recordMap}) {
         <Head>
           <title>Not Found.</title>
           <meta name="description" content="Not Found." />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" type="image/svg+xml" sizes="192x192" href="/favicon.svg" />
         </Head>
 
         <code style={{color:'black'}}>Not Found.</code>
@@ -51,7 +51,7 @@ export default function Home({recordMap}) {
         <Head>
           <title>Careers - Cupoc, Inc.</title>
           <meta name="description" content="Careers at Cupoc, Inc." />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" type="image/svg+xml" sizes="192x192" href="/favicon.svg" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
         </Head>
