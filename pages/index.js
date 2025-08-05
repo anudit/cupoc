@@ -95,7 +95,7 @@ export default function Home() {
             }
           />
           <Column
-            link="http://omnid.space/"
+            link="https://omnid.io/"
             logo={<OmnidIcon boxSize={16} />}
             background="linear-gradient(154deg, #113e6b 0%, #051655 100%)"
             title="Omnid"
