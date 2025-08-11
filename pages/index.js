@@ -39,7 +39,7 @@ function Column({background, logo, title, shortDescription, longDescription, lin
         <Text className="showOnHover" display="none" visibility={{base: "hidden", md:"visible"}} ml={1} mt="-10px">
           {url.host}
         </Text>
-        <Text fontSize="60px" fontWeight={400} color="inherit" letterSpacing="-2px" >
+        <Text fontSize="50px" fontWeight={400} color="inherit" letterSpacing="-2px" >
           {title}
         </Text>
         <Text className="showOnHover" display="none" fontSize="md" fontWeight={400} color="inherit">
@@ -107,16 +107,16 @@ export default function Home() {
             }
           />
           <Column
-            link="https://varta.space/"
-            logo={<VartaIcon boxSize={20} />}
-            background="linear-gradient(85deg, #6d6d6d, #4d4d4d)"
-            title="Varta"
-            shortDescription= "The Decentralized Experience Layer of Internet"
-            longDescription={
-              <Text fontWeight={400} color="whiteAlpha.700" lineHeight="22px" fontSize="sm">
-                The entire internet, fit in a dot.
-              </Text>
-            }
+            link="https://humanityhq.com/"
+            // logo={<VartaIcon boxSize={20} />}
+            background="url(https://res.cloudinary.com/anudit/image/upload/v1754800746/one-port_i3xcbr.jpg)"
+            title="HumanityHQ"
+            shortDescription= "Pick the future you want to work on"
+            // longDescription={
+            //   <Text fontWeight={400} color="whiteAlpha.700" lineHeight="22px" fontSize="sm">
+            //     Pick the future you want to work on
+            //   </Text>
+            // }
           />
         </Flex>
 
